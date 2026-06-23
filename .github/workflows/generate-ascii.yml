@@ -12,10 +12,10 @@ jobs:
         #     echo "my first github acions job"
         #     ls -ltra
         #     cat README.md
-        - name: Execute Cowsay CMD
+        - name: install Cowsay program
           run: sudo apt-get install cowsay -y  
             
-        - name: generate ASCII artwork
+        - name: Execute ASCII CMD
           run: cowsay -f dragon "Run for cover i ama dragon...">>dragon.txt
         - name: Test file Exists
           run: grep -i "dragon" dragon.txt
