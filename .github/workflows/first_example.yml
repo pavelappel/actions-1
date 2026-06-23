@@ -5,8 +5,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: checkout Repo
-          uses: actions/checkput@v4 
-          
+          uses: actions/checkout@v4 
+
         - name: welcome messgae
           run: echo "my first github acions job"
 
