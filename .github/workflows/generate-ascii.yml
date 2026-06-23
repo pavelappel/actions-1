@@ -22,7 +22,7 @@ jobs:
         - name: Read file
           run: cat dragon.txt
         - name: list Repo files
-          run: ls ltra
+          run: ls -ltra
         # - name: list file
         #   run: ls
             
